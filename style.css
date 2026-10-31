@@ -336,4 +336,29 @@ right: auto;
 
 .luna:hover .mensaje {
     opacity: 1;
+}.control-musica {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border: 1px solid rgba(190, 160, 255, 0.35);
+  border-radius: 999px;
+  background: rgba(15, 12, 35, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 18px rgba(160, 120, 255, 0.25);
+  color: #e9ddff;
+}
+
+.control-musica label {
+  font-size: 20px;
+}
+
+.control-musica input {
+  width: 90px;
+  accent-color: #b99aff;
+  cursor: pointer;
 }
